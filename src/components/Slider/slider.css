@@ -2,12 +2,8 @@
   overflow: hidden;
 }
 
-#contenedor_slider figure img {
-  width: 20%;
-  float: left;
-}
-
 #contenedor_slider figure {
+  overflow: hidden;
   position: relative;
   width: 500%;
   margin: 0;
@@ -15,6 +11,12 @@
   text-align: left;
   font-size: 0;
   animation: 18s slidy infinite;
+}
+
+#contenedor_slider figure img {
+  height: 18rem;
+  width: 20%;
+  float: left;
 }
 
 @keyframes slidy {

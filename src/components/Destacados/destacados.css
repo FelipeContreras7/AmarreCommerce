@@ -1,0 +1,18 @@
+#destacados_slider{
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+
+.card_container {
+  display: flex;
+  width: 10rem;
+  height: 15rem;
+  background-color: rgb(45, 114, 114);
+}
+
+.img_destacados{
+  height: 10rem;
+  width: 10rem;
+}
