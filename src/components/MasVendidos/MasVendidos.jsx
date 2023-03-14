@@ -1,4 +1,4 @@
-import "./destacados.css";
+import "./masvendidos.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -6,10 +6,10 @@ import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
 
 
-function Destacados ({ tarjetas }) {
+function Masvendidos ({ tarjetas }) {
   return(
-    <div className="container">
-      <h2 className="titulo_destacados">Lo mas vendido</h2>
+    <div className="mv_container">
+      <h2 className="mv_titulo_destacados">Populares en esta categoría</h2>
       <Swiper
         slidesPerView={2}
         spaceBetween={30}
@@ -22,7 +22,7 @@ function Destacados ({ tarjetas }) {
       >
         {tarjetas.map((tarjeta) => (
                   <SwiperSlide key={tarjeta.foto}>
-                    <div className="tarjeta">
+                    <div className="mv_tarjeta">
                     <img src={tarjeta.foto} alt={tarjeta.id}/>
                     <h2>A partir de</h2>
                     <h3>${tarjeta.precio}</h3>
@@ -31,12 +31,11 @@ function Destacados ({ tarjetas }) {
         ))}
 
       </Swiper>
-      <h2 className="titulo_categorias">Mirá lo que tenemos para vos</h2>
       </div>
   )
 }
 
 
-export default Destacados;
+export default Masvendidos;
 
 

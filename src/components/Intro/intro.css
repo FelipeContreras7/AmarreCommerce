@@ -1,0 +1,19 @@
+.intro{
+  margin: 2rem 1rem 3rem 1rem;
+}
+.titulo, .descripcion{
+  text-align: center;
+}
+
+.titulo{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 24px;
+  color: rgb(81, 81, 81);
+  margin-bottom: 0.5rem;
+}
+
+.descripcion{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
+  color: rgb(81, 81, 81);
+}

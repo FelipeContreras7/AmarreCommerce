@@ -1,0 +1,24 @@
+.banner{
+  background-color: rgb(98, 110, 106);
+  height: 23rem;
+  margin: 3rem 1rem 5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;;
+}
+
+.banner img{
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+  filter: brightness(50%);
+}
+
+.banner h1{
+  position: absolute;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2rem;
+  color: aliceblue;
+}

@@ -1,6 +1,6 @@
-.container {
-  height: 15rem;
-  margin: -1rem 1rem 9rem 1rem;
+.mv_container {
+  height: 12rem;
+  margin: -4rem 2rem 5rem 2rem;
 }
 
 .swiper {
@@ -27,34 +27,27 @@
   border-radius: 5px;
 }
 
-.tarjeta {
+.mv_tarjeta {
 
   padding: 5px;
   height: 100%;
 }
 
-.tarjeta h2{
-  margin-top: 1rem;
+.mv_tarjeta h2{
+  margin-top: 0.2rem;
   font-size: 0.8rem;
 }
 
-.tarjeta h3{
+.mv_tarjeta h3{
   font-size: 1.3rem;
   color: rgb(59, 81, 136);
   text-decoration: underline;
 }
 
-.titulo_destacados{
+.mv_titulo_destacados{
   text-align: center;
   font-family: "Permanent Marker", 'Courier New', Courier, monospace;
-  font-size: 1.5rem;
-  color:#ff356e ;
+  font-size: 1.3rem;
+  color:#5a5a5a ;
   margin-bottom: 1rem;
-}
-.titulo_categorias{
-  text-align: center;
-  font-family: "Permanent Marker", 'Courier New', Courier, monospace;
-  font-size: 1.5rem;
-  color:#ff356e ;
-  margin-top: 2rem;
 }

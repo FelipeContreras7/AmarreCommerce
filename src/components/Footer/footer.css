@@ -1,0 +1,13 @@
+.footer_container{
+  padding-top: 2rem;
+  margin-top: 100px;
+  height: 200px;
+  background-color: #dba5b8;
+}
+
+.footer_container p{
+  width: 100%;
+  text-align: center;
+  margin: 1rem 0 1rem 0;
+  font-family: "Permanent Marker";
+}
