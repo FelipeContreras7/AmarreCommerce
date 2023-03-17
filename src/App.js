@@ -18,6 +18,7 @@ import collares from "./services/mvcollares.json";
 import pulseras from "./services/mvpulseras.json";
 import aritos from "./services/mvaritos.json";
 import straps from "./services/mvstraps.json";
+import SearchBar from "./components/SearchBar/SearchBar";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <NavBar />
       <Slider/>
       <Intro intro={intro}/>
+      <SearchBar/>
       <Destacados tarjetas={tarjetas}/>
       <Banner categ={categ1}/>
       <Masvendidos tarjetas={collares}/>
